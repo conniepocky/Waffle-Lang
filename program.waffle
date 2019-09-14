@@ -1,0 +1,9 @@
+(display "Welcome to Waffle Land! :D")
+
+(display "\n What would you like to buy from McWaffles today?")
+
+(var "food" (read))
+
+(var "price" (str-length food))
+
+(display (conj "Ok here is your " food ". That will be £" (to-string price)))
