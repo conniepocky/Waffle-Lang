@@ -6,4 +6,4 @@
 
 (var "price" (str-length food))
 
-(display (conj "Ok here is your " food ". That will be £" (to-string price)))
+(display (conj "Ok here is your " food ". That will be £" (to-string price) "\n"))
