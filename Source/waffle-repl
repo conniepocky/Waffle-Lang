@@ -134,8 +134,6 @@
 (define (square n)
   (* n n))
 
-(define pi 3.14159265359)
-
 ; command line 
 
 (repl)

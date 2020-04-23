@@ -1,4 +1,4 @@
-
+ 
 #lang racket
 
 (require racket/file)
@@ -27,7 +27,10 @@
   (list-ref l p))
 
 (define (to-string s)
-  (~v s)) 
+  (~v s))
+
+(define (to-int s)
+  (string->integer s))
 
 (define (cut str position)
   (substring str 0 position))
@@ -129,8 +132,6 @@
 
 (define (square n)
   (* n n))
-
-(define pi 3.14159265359)
 
 ; command line 
 

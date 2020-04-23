@@ -30,7 +30,7 @@
   (~v s))
 
 (define (to-int s)
-  (string->integer s))
+  (string->number s))
 
 (define (cut str position)
   (substring str 0 position))
@@ -133,7 +133,11 @@
 (define (square n)
   (* n n))
 
-(define pi 3.14159265359)
+(define (date)
+  (current-date))
+
+(define (pow n i)
+  (expt n i))
 
 ; command line 
 
